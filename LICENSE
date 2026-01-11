@@ -1,0 +1,66 @@
+MIT License
+
+Copyright (c) 2026 Aditya Sharma
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## IMPORTANT LEGAL NOTICE
+
+This software is designed for AUTHORIZED SECURITY TESTING ONLY.
+
+### Permitted Use:
+- Testing applications you own
+- Testing with explicit written permission
+- Authorized bug bounty programs
+- Educational purposes in controlled environments
+- Security research with proper authorization
+
+### Prohibited Use:
+- Unauthorized testing of any system
+- Malicious attacks or exploitation
+- Testing without explicit permission
+- Any illegal activities
+- Violation of computer fraud laws
+
+### User Responsibility:
+By using this software, you agree to:
+1. Obtain proper authorization before testing
+2. Follow all applicable laws and regulations
+3. Respect bug bounty program rules
+4. Use the tool ethically and responsibly
+5. Not hold the author liable for misuse
+
+### Disclaimer:
+The author and contributors are NOT responsible for:
+- Misuse of this software
+- Illegal activities performed with this tool
+- Damages caused by unauthorized testing
+- Violations of laws or regulations
+
+### Compliance:
+Users must comply with:
+- Computer Fraud and Abuse Act (CFAA) - USA
+- Computer Misuse Act - UK
+- Relevant local and international laws
+- Bug bounty program terms and conditions
+- Responsible disclosure guidelines
+
+**USE AT YOUR OWN RISK. ALWAYS GET PERMISSION BEFORE TESTING.**
