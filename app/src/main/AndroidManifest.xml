@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bugbounty.xsstester">
+
+    <!-- Required Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="XSS Tester"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:usesCleartextTraffic="true">
+        
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="XSS Bug Bounty Tester">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Payload Library Activity -->
+        <activity
+            android:name=".PayloadLibraryActivity"
+            android:label="Payload Library"
+            android:parentActivityName=".MainActivity" />
+        
+        <!-- Testing Activity -->
+        <activity
+            android:name=".TestingActivity"
+            android:label="XSS Testing"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        
+        <!-- Report Activity -->
+        <activity
+            android:name=".ReportActivity"
+            android:label="Test Reports"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>
